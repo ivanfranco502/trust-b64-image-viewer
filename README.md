@@ -13,7 +13,7 @@ Whitespace and line breaks are ignored, and `=` padding is optional.
 
 ## Develop
 
-Requires [pnpm](https://pnpm.io/). The version is pinned in `package.json` via the `packageManager` field — `corepack enable` will pick it up automatically.
+Requires Node 24 and [pnpm](https://pnpm.io/). The pnpm version is pinned in `package.json` via the `packageManager` field — `corepack enable` will pick it up automatically.
 
 ```bash
 pnpm install
